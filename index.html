@@ -1,57 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>PAGINA WEB DE GERARDO HERRERA</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <title>Gerardo Herrera</title>
 </head>
-  <!-- Uses a transparent header that draws on top of the layout's background -->
-<style>
-.demo-layout-transparent {
-  background: url('https://lh5.googleusercontent.com/-djuYXXCj-_4/Uic5b9s2ibI/AAAAAAAAAKk/FFy50exmei0/s630-fcrop64=1,20132011df9ddfed/hirohiro.jpg') center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
-}
-</style>
+<body>
+        <header>
+                <div class="container">
+                    <div id="branding"> 
+                        <h1> <span class="higlight">GERARDO HERRERA</span> web developer</h1>
+                    </div>
+                
+                <nav>
+                    <ul>
+                        <li class="current"> <a href="home.html">Home</a> </li>
+                      
+                    </ul>
+                </nav>
+            </div>
+            </header>
+            <section id="showcase">
+                    <div class="container">
+                        <h1>BLOGS</h1>
+                       <p><a href="https://medium.com/@geroblacksmith/">En Medium</a> estoy subiendo todo lo que se al respecto del desarrollo web, asi que puedes seguirme ahí.</p> 
 
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Pagina Web de Gerardo Herrera</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-       <!-- <a class="mdl-navigation__link" href="">Link</a> -->
-       
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Menu</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="https://www.twitter.com/GeroBlacksmith" target="_blank">Twitter</a>
-      <a class="mdl-navigation__link" href="https://geroblacksmithdevlog.blogspot.com.ar/" target="_blank">DevBlog</a>
-      
-    
-    </nav>
-  </div>
-  <main class="mdl-layout__content">
-  </main>
-</div>
-  <div class="mdl-grid">
-  
-  <div class="mdl-cell mdl-cell--2-col">
-    <a class="twitter-timeline"
-  href="https://twitter.com/geroblacksmith">
-Tweets by @geroblacksmith
-</a>
-    </div>
-</div>
+            
+                    </div>
+            </section>
+            <section id="newsletter">
+                    <div class="container">
+                        <h1>Sigueme en Twitter, a veces soy serio y otras informal.</h1>
+                        <form action="#">
+                            <input type="text" placeholder="Tuitearme por acá todavia no anda">
+                            <a type="button" href="www.twitter.com/geroblacksmith" class="button_1">Mi twitter</a>
+            
+                        </form>
+                    </div>
+                </section>
+                <section id="boxes">
+                        <div class="container">
+                            <div class="box">
+                                
+                                <h3>Ejemplos en github, sobre HTML</h3>
+                                <p><a href="https://github.com/GeroBlacksmith/htmlbasics">Ejemplos</a> de todos los días en HTML</p>
+                            </div>
+                            <div class="box">
+                                
+                                <h3>AngularJS</h3>
+                                <p><a href="https://github.com/GeroBlacksmith/angular-js-testing-01">Proyecto</a> de prueba donde estoy aprendiendo AngularJS</p>
+                            </div>
+                            <div class="box">
+                                
+                                <h3>Certificacion Web</h3>
+                                <p><a href="https://github.com/GeroBlacksmith/certweb">Proyecto</a> lleno de ejemplos para rendir la Certificacion Web Mobile Specialist</p>
+                            </div>
+                        </div>
+                    </section>
+                    <footer>
+                        <p>Diseño web Forja de software. Copyright 2017</p>
+                    </footer>
 
+</body>
 </html>

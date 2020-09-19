@@ -4,9 +4,19 @@ p {
   .container{
     display: flex;
     width: 100%;
+    margin:1.5rem auto;
+    max-height: 300px;
+  }
+ 
+  .actions{
+    display: flex;
+    width: 100%;
     margin:3rem auto;
   }
   .col6{
+    width: 50%;
+  }
+  .button6{
     width: 50%;
   }
   img{
@@ -32,4 +42,14 @@ p {
   }
   a.black:hover{
     background-color: #424242;
+  }
+  @media(max-width:765px){
+    .container{
+      flex-direction: column;
+      max-height: 900px;
+      height: 100%;
+    }
+    .col6{
+      width: 100%;
+    }
   }

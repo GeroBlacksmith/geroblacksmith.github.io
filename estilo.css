@@ -1,56 +1,56 @@
+@media (max-width: 765px) {
+  .container {
+    flex-direction: column;
+    max-height: 900px;
+    height: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+}
 p {
-    font-family: Lato;
-  }
-  .container{
-    display: flex;
-    width: 100%;
-    margin:1.5rem auto;
-    max-height: 300px;
-  }
- 
-  .actions{
-    display: flex;
-    width: 100%;
-    margin:3rem auto;
-  }
-  .col6{
-    width: 50%;
-  }
-  .button6{
-    width: 50%;
-  }
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
-  
-  a.button{
-    background-color: rgb(96, 185, 96);
-    width: 100%;
-    height: 100%;
-    padding: 0.6rem;
-    text-decoration: none;
-    color:aliceblue;
-    font-family: Lato;
-    transition:all 300ms ease;
-  }
-  a.button:hover{
-    background-color: rgb(137, 209, 137);
-  }
-  a.black{
-    background-color: #030303;
-  }
-  a.black:hover{
-    background-color: #424242;
-  }
-  @media(max-width:765px){
-    .container{
-      flex-direction: column;
-      max-height: 900px;
-      height: 100%;
-    }
-    .col6{
-      width: 100%;
-    }
-  }
+  font-family: Lato;
+}
+.container {
+  display: flex;
+  width: 100%;
+  margin: 1.5rem auto;
+  max-height: 300px;
+}
+
+.actions {
+  display: flex;
+  width: 100%;
+  margin: 3rem auto;
+}
+.col6 {
+  width: 50%;
+}
+.button6 {
+  width: 50%;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+a.button {
+  background-color: rgb(96, 185, 96);
+  width: 100%;
+  height: 100%;
+  padding: 0.6rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Lato;
+  transition: all 300ms ease;
+}
+a.button:hover {
+  background-color: rgb(137, 209, 137);
+}
+a.black {
+  background-color: #030303;
+}
+a.black:hover {
+  background-color: #424242;
+}
